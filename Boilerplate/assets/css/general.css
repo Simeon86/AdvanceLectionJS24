@@ -1,0 +1,17 @@
+button {
+    position: relative;
+    bottom: 0;
+    border: none;
+    background-color: greenyellow;
+    color: #fff;
+    box-shadow: 5px 10px 2px -2px rgba(3, 109, 247, 0.5);
+
+    width: 200px;
+    height: 50px;
+
+    transition: 0.3s;
+}
+
+button.down {
+    background-color: aqua;
+}
